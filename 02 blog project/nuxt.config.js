@@ -66,10 +66,14 @@ module.exports = {
     }
   },
   env: {
-    baseUrl: process.env.BASE_URL || 'https://nuxt-blog-a460b-default-rtdb.europe-west1.firebasedatabase.app'
+    baseUrl: process.env.BASE_URL || 'https://nuxt-blog-a460b-default-rtdb.europe-west1.firebasedatabase.app',
+    fbAPIKey: 'AIzaSyBumBS_rbAECpogDbll6QDAnYFNvOfPbQU'
   },
   transition: {
     name: 'fade',
     mode: 'out-in'
-  }
+  },
+  // router: {
+  //   middleware: 'log'
+  // }
 }
